@@ -1,0 +1,36 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+body{
+          font-family:sans-serif ;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: gainsboro;
+    padding: 100px;
+    grid-column-gap: 100px;
+    font-size: 20px;
+}
+
+.box__one{
+          background: hotpink;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+}
+
+.box__two{
+          background: lemonchiffon;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+}
